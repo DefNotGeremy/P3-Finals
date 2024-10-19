@@ -45,12 +45,57 @@ def main():
 
     elif choice == '2':
         print(story5, continue2)
+        flirtt()
 
     elif choice == '3':
         print(story6, continue3)
+        lie()
 
     elif choice == '4':
-        print("She is now dead.")
+        print("User has left")
+        exit()
+
+def flirt():
+    story7 = "Dialogue 7"
+    continue4 = "Continue 4"
+    print(story7, continue4)
+    flirt_options()
+
+def flirt_options():
+    print("Select option:")
+    print("1. ")
+    print("2. ")
+    print("3. ")
+    
+    choice = input("Enter choice (1/2/3): ")
+    if choice == '1':
+        print("Text here")
+    elif choice == '2':
+        print("Text here")
+    elif choice == '3':
+        print("Text here")
+        exit()
+
+def lie():
+    story8 = "Dialogue 8"
+    continue5 = "Continue 5"
+    print(story8, continue5)
+    lie_options()
+
+def lie_options():
+    print("Select option:")
+    print("1. ")
+    print("2. ")
+    print("3. ")
+
+    choice = input("Enter choice (1/2/3): ")
+    if choice == '1':
+        print("Text here")
+    elif choice == '2':
+        print("Text here")
+    elif choice == '3':
+        print("Text here")
+        exit()
 
 
 if __name__ == "__main__":
